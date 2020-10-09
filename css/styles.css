@@ -159,25 +159,9 @@ h1.title{
       margin: 40px auto 60px;
   
 }
-.btn {
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
 
-.contact{
-    border-color: #4CAF50;
-    color: green;
-  }
-  
-.contact:hover {
-    background-color: #4CAF50;
-    color: white;
-  }
+
+
   
 .buttomwave{
   margin-top:-200px;
@@ -248,12 +232,19 @@ h1.title{
 
     
   }
+  .interview{
+    width:100%;
+    height:100%;
+  }
   .resume{
     width: 100%;
     height: 100vh
   }
   .resumehead{
 font-size:3vw;
+  }
+  .inthead{
+    font-size:3vw;
   }
   
 
@@ -326,6 +317,7 @@ font-size: 40px;
 
 .aptitude{
   background-image: url("https://wallpaperset.com/w/full/7/5/a/545589.jpg");
+  padding: 10px;
 }
 .aptitudehead{
   background-color:#4cd3c2;
@@ -384,8 +376,9 @@ font-size: 40px;
 
   
 }
+
 .coding ul{
-  list-style-type: none;
+  color: midnightblue
 }
 .codingques{
   background-color: #fca652;
@@ -398,21 +391,47 @@ font-size: 40px;
   color:#c70d3a;
   font-size: 30px;
 }
-.codingques p{
+.codingques p,a{
   font-family: 'Philosopher', sans-serif;
   color:#621055;
   font-size: 30px;
 }
-.codingmcq{
- /* background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F640127-mixed-colors-triangulated-background-texture-vector&psig=AOvVaw2kpXyYEm-Yxc12LkJ_uLO0&ust=1602345583445000&source=images&cd=vfe&ved=2ahUKEwiVyd7L8KfsAhXe6jgGHRi0ApsQjRx6BAgAEAc");*/
- background-color:#F9C0C0;
- height:1000px;
-  text-align: center;
-  font-size: 10px;
+.mcqhead{
+  background-color:#FFA5A5;
+  width: 100%;
+  height: 50px;;
+
 }
 .codingmcq {
-  background-color: #01024e;
-  height:50px;
+  background-color:#FCDADA ;
+  height:1000px;
   text-align: center;
   font-size: 20px;
+}
+.codingmcq p{
+  font-family: 'Philosopher', sans-serif;
+  color:#681313;
+  font-size: 10px;
+}
+.codingmcq ul{
+  font-family: 'Courgette', cursive;
+  color:#90007f;
+  font-size: 30px;
+}
+.interview{
+  background-color:#D2F6C5;
+  background-size:100% 100%;
+  height: 5000px;;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.interview p{
+  font-family: 'Philosopher', sans-serif;
+  color:#681313;
+}
+.inthead{
+  background-color:#28DF99;
+  width: 100%;
+  height: 50px;;
 }

@@ -22,3 +22,7 @@ function openmcq(){
 function openques(){
     window.open("codingques.html");
 }
+function openmail(){
+    print("1");
+    window.open("swetha.durairaj2002@gmail.com");
+}
