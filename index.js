@@ -16,3 +16,9 @@ function openres(){
 function openmock(){
     window.open("mock.html")
 }
+function openmcq(){
+    window.open("codingmcq.html")
+}
+function openques(){
+    window.open("codingques.html");
+}
