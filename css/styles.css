@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	/*font-family: 'Anton', sans-serif;*/
+}
+h1.title{
+	margin-bottom: 20px;
+	color: #444444;
+	/*font-family: 'Allura', cursive;*/
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+p{
+	margin-bottom: 15px;
+	font-size: 24px;
+	line-height: 20px;
+    color:black;
+    font-family: 'Courgette', cursive;
+}
+.design svg{
+    display:block;
+}
+.navbar{
+	width: 100%;
+    height: 65px;
+    /*background-color: powderblue;*/
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo a{
+    font-family: 'Lobster', cursive;
+	/*font-family: 'Allura', cursive;*/
+	font-size: 32px;
+	color: #fb2274;
+  
+}
+
+.navbar_items ul{
+	display: flex;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+    color:#0f2596;
+    font-size:20px;
+  /*font-family: 'Allura', cursive;*/
+  font-family: 'Lobster', cursive;
+  
+}
+.navbar_items li a:hover {
+  
+  background-color:  #fcdada;
+
+}
+.banner_image{
+	background-color:white;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.code-image {
+    width: 55%;
+    float: right;
+    margin-right:100px;
+}
+.banner_content{
+	text-align: left;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+
+.banner_content h1 span{
+    color: #794c74;
+    font-family: 'Patrick Hand', cursive;
+}
+.about{
+	text-align: center;
+    padding: 5% 10%;
+    font-family: 'Patrick Hand', cursive;
+}
+    
+    
+
+.button {
+    border-radius: 4px;
+    background-color: #fca652;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.contact-me {
+      width: 40%;
+      text-align:center;
+      margin: 40px auto 60px;
+  
+}
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+.contact{
+    border-color: #4CAF50;
+    color: green;
+  }
+  
+.contact:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.buttomwave{
+  margin-top:-200px;
+}
